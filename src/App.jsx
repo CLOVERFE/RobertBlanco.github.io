@@ -126,7 +126,7 @@ function App() {
       title: "E-commerce Platform - Jemma",
       description: "Plataforma de comercio electrónico desarrollada durante mi tiempo en Jemma. Incluye sistema de gestión de productos, carrito de compras y procesamiento de pagos.",
       technologies: ["PHP", "MySQL", "JavaScript", "HTML5", "CSS3"],
-      image: "/src/assets/images/ecommerce-jemma.jpg",
+  image: null,
       liveUrl: "#",
       githubUrl: "#"
     },
@@ -135,7 +135,7 @@ function App() {
       title: "Corporate Website - Jemma",
       description: "Sitio web corporativo responsivo con sistema de gestión de contenido personalizado. Optimizado para SEO y rendimiento.",
       technologies: ["WordPress", "PHP", "JavaScript", "CSS3", "MySQL"],
-      image: "/src/assets/images/corporate-website.jpg",
+  image: null,
       liveUrl: "#",
       githubUrl: "#"
     },
@@ -144,7 +144,7 @@ function App() {
       title: "Adventure Game - Artizan",
       description: "Videojuego de aventura 2D desarrollado en Unity. Participé en la programación del gameplay, mecánicas de combate y sistema de inventario.",
       technologies: ["Unity", "C#", "Game Design", "2D Animation", "Audio Design"],
-      image: "/src/assets/images/adventure-game.jpg",
+  image: null,
       liveUrl: "#",
       githubUrl: "#"
     },
@@ -153,7 +153,7 @@ function App() {
       title: "Puzzle Platformer - Artizan",
       description: "Videojuego de plataformas con elementos de puzzle. Diseñé las mecánicas de juego y programé la lógica de los niveles.",
       technologies: ["Unity", "C#", "Level Design", "Puzzle Mechanics", "UI/UX"],
-      image: "/src/assets/images/puzzle-platformer.jpg",
+  image: null,
       liveUrl: "#",
       githubUrl: "#"
     }
@@ -250,51 +250,51 @@ function App() {
                 <h3>Habilidades Técnicas</h3>
                 <div className="skills-grid">
                   <div className="skill-item">
-                    <img src="/src/assets/images/tech-icons/javascript.svg" alt="JavaScript" className="tech-icon" />
+                    <span className="tech-icon" aria-hidden="true">⚙️</span>
                     JavaScript ES6+
                   </div>
                   <div className="skill-item">
-                    <img src="/src/assets/images/tech-icons/react.svg" alt="React" className="tech-icon" />
+                    <span className="tech-icon" aria-hidden="true">⚛️</span>
                     React/Next.js
                   </div>
                   <div className="skill-item">
-                    <img src="/src/assets/images/tech-icons/nodejs.svg" alt="Node.js" className="tech-icon" />
+                    <span className="tech-icon" aria-hidden="true">🟢</span>
                     Node.js/Express
                   </div>
                   <div className="skill-item">
-                    <img src="/src/assets/images/tech-icons/html.svg" alt="HTML" className="tech-icon" />
+                    <span className="tech-icon" aria-hidden="true">🟧</span>
                     HTML5/CSS3
                   </div>
                   <div className="skill-item">
-                    <img src="/src/assets/images/tech-icons/unity.svg" alt="Unity" className="tech-icon" />
+                    <span className="tech-icon" aria-hidden="true">🎮</span>
                     Unity Engine
                   </div>
                   <div className="skill-item">
-                    <img src="/src/assets/images/tech-icons/csharp.svg" alt="C#" className="tech-icon" />
+                    <span className="tech-icon" aria-hidden="true">#</span>
                     C# Programming
                   </div>
                   <div className="skill-item">
-                    <img src="/src/assets/images/tech-icons/php.svg" alt="PHP" className="tech-icon" />
+                    <span className="tech-icon" aria-hidden="true">🐘</span>
                     PHP/MySQL
                   </div>
                   <div className="skill-item">
-                    <img src="/src/assets/images/tech-icons/gamedesign.svg" alt="Game Design" className="tech-icon" />
+                    <span className="tech-icon" aria-hidden="true">🎲</span>
                     Game Design
                   </div>
                   <div className="skill-item">
-                    <img src="/src/assets/images/tech-icons/figma.svg" alt="Figma" className="tech-icon" />
+                    <span className="tech-icon" aria-hidden="true">🎨</span>
                     UI/UX Design
                   </div>
                   <div className="skill-item">
-                    <img src="/src/assets/images/tech-icons/git.svg" alt="Git" className="tech-icon" />
+                    <span className="tech-icon" aria-hidden="true">🔧</span>
                     Git/GitHub
                   </div>
                   <div className="skill-item">
-                    <img src="/src/assets/images/tech-icons/wordpress.svg" alt="WordPress" className="tech-icon" />
+                    <span className="tech-icon" aria-hidden="true">📝</span>
                     WordPress
                   </div>
                   <div className="skill-item">
-                    <img src="/src/assets/images/tech-icons/3dmodeling.svg" alt="3D Modeling" className="tech-icon" />
+                    <span className="tech-icon" aria-hidden="true">🧩</span>
                     3D Modeling
                   </div>
                 </div>
